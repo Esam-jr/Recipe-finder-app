@@ -32,7 +32,7 @@ function Home() {
     }
   };
   useEffect(() => {
-    fetchRecipes("stew");
+    fetchRecipes("chicken");
   }, []);
   function handleSubmit(e) {
     e.preventDefault();
